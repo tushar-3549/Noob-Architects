@@ -1,0 +1,193 @@
+@media (max-width: 1200px) {
+    .navbarPart {
+        padding: 2rem 3rem !important;
+    }
+}
+
+@media (max-width: 992px) {
+    .navbarPart {
+        padding: 2rem 4rem !important;
+    }
+
+    .banner-content {
+        width: 100%;
+    }
+
+    .banner-title {
+        font-size: 2rem;
+    }
+
+    .feature-container {
+        flex-direction: column;
+    }
+
+    .right{
+        margin-top: 2rem;
+        text-align: center;
+    }
+
+    .feature-point-section {
+        flex-direction: row;
+        gap: 3rem 0;
+    }
+
+    .description {
+        text-align: center;
+    }
+
+    .title {
+        text-align: center;
+        font-size: 1.7rem;
+    }
+
+    .feat-title {
+        text-align: left;
+        padding-left: 0.5rem;
+    }
+
+    .expreience {
+        top: -50px;
+        left: 50px;
+    }
+
+    .expreience h2 {
+        font-size: 2rem;
+        font-weight: 700;
+        color: #fff;
+        margin-bottom: .3rem;
+    }
+
+    .fact-cards {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 3rem 0;
+    }
+
+    .sponsor-details {
+        width: 90%;
+    }
+
+    .sponsor-logos {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 3rem;
+    }
+
+    .sponsor-logos img {
+        width: 100px;
+    }
+
+    .testimonial-section {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+@media (max-width: 776px) {
+    .navbarPart {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .menu-container{
+        margin-top: 1rem;
+    }
+    .logo {
+        font-size: 1.4rem;
+    }
+
+
+    .banner-content {
+        width: 100%;
+    }
+
+    .banner-title {
+        font-size: 2rem;
+    }
+
+    .feature-section {
+        flex-direction: column;
+    }
+
+    .right {
+        margin-top: 2rem;
+        text-align: center;
+    }
+
+    .feature-point-section {
+        flex-direction: column;
+        gap: 3rem 0;
+    }
+
+    .feature-point-section>div {
+        width: 100%;
+    }
+
+    .description {
+        text-align: center;
+    }
+
+    .title {
+        text-align: center;
+        font-size: 1.7rem;
+    }
+
+    .feat-title {
+        text-align: left;
+        padding-left: 0.5rem;
+    }
+
+    .expreience {
+        top: -50px;
+        left: 50px;
+    }
+
+    .expreience h2 {
+        font-size: 2rem;
+        font-weight: 700;
+        color: #fff;
+        margin-bottom: .3rem;
+    }
+
+    .fact-cards {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 3rem 0;
+    }
+
+    .sponsor-details {
+        width: 90%;
+    }
+
+    .sponsor-logos {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 3rem;
+    }
+
+    .sponsor-logos img {
+        width: 100px;
+    }
+
+    .testimonial-section {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+}
+
+@media (max-width: 576px) {
+    .fact-cards {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 3rem 0;
+    }
+    .menu{
+        gap: 0 .6rem
+    }
+}
+@media (max-width: 340px) {
+    .menu{
+        gap: 0 .6rem
+    }
+    .menu li a{
+        font-size: 0.8rem;
+    }
+}
